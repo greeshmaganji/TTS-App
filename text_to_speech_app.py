@@ -1,5 +1,7 @@
-# import streamlit as st
-from gtts import gTTS
+import streamlit as st  # Import Streamlit
+from gtts import gTTS   # Import gTTS for text-to-speech
+import os
+
 
 # Function to synthesize speech from text, language, and speed
 def synthesize_speech(text, language, slow):
